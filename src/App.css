@@ -1,0 +1,72 @@
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial;
+    flex-direction: column;
+    margin-top: 3em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.myForm {
+    display: flex;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.contact input {
+    width: 100%;
+}
+
+.contact input,
+.App button {
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.App button {
+    background: #1ac824;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+}
+
+button:disabled,
+button[disabled]{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+
+.available, .checkingAvailability, .isAlreadyTaken {
+    height: 4em;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.available {
+    background: #1ac824;
+}
+
+.checkingAvailability {
+    background: #087ec8;
+}
+
+.isAlreadyTaken {
+    background: #ff0012;
+}
+
+.form-errors {
+    margin-bottom: 1em;
+}
+
+.form-errors p {
+    padding: 24px;
+}
+
+.username {
+    font-weight: bold;
+}
